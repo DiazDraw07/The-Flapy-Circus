@@ -4,12 +4,12 @@ class Inicio extends Phaser.Scene {
     }
 
     preload(){
-        this.load.image("fondo","ASSETS/Fondo_Circo.png");
-        this.load.image("bird","ASSETS/Bubble.png");
-        this.load.image("pipe","ASSETS/TuboRojo.png");
-        this.load.image("pipe2","ASSETS/TuboNaranja.png");
-        this.load.image("boton","ASSETS/Boton_Play.png");
-        this.load.image("personaje","ASSETS/Bubble_Portada.png");
+        this.load.image("fondo","Fondo_Circo.png");
+        this.load.image("bird","Bubble.png");
+        this.load.image("pipe","TuboRojo.png");
+        this.load.image("pipe2","TuboNaranja.png");
+        this.load.image("boton","Boton_Play.png");
+        this.load.image("personaje","Bubble_Portada.png");
     }
 
     create(){
