@@ -56,7 +56,7 @@ class Inicio extends Phaser.Scene {
             this.cameras.main.fadeOut(300, 0, 0, 0);
 
             this.time.delayedCall(300, ()=>{
-                this.scene.start("Juego");
+                this.scene.start ("Juego");
             });
 
         });
